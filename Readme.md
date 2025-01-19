@@ -1,8 +1,7 @@
 ## .env  -- file cannot be uploaded
 
-```
-But it must be created inside the project (whether openai model is used or not) 
-```
+
+<span style="color:#85c7f2"><strong>But it must be created inside the project (whether openai model is used or not)</strong></span>
 
 **This is the example how it can be added**
 
@@ -13,7 +12,9 @@ OPENAI_API_KEY = "sk-proj-111..."
 
 ## virtual environment must be created 
 
-**Either use conda environment or make venv using python**
+
+<span style="color:#85c7f2"><strong>Either use conda environment or make venv using python</strong></span>
+
 
 ```
 conda create -p myenv python==3.12
@@ -29,7 +30,7 @@ python -m venv myenv
 pip install crewai crewai-tools python-dotenv langchain_openai
 ```
 
-**In order to use ollama models, install ollama in your system and then pull the desired model**
+<span style="color:#85c7f2"><strong>In order to use ollama models, install ollama in your system and then pull the desired model</strong></span>
 
 ```
 ollama pull llama3.2
